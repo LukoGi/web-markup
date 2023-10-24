@@ -11,13 +11,13 @@ header img
 {
     max-width:20%;
     max-height:100px;
-    margin-right:10px;
+    margin-right:5px;
 }
 nav
 {
     display:flex;
     align-items:center;
-    margin-left:10px;
+    margin-left:5px;
 }
 nav ul
 {
