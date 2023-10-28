@@ -1,0 +1,158 @@
+header
+{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px;
+    background-color: #D9B08C;
+    height:20vh;
+} 
+header img
+{
+    max-width:20%;
+    max-height:100px;
+}
+nav
+{
+    display:flex;
+    align-items:center;
+}
+nav ul
+{
+    list-style:none;
+}
+nav ul li
+{
+    display:inline;
+    margin-right:40px;
+}
+nav ul li a
+{
+    font-size:13px;
+    color:#333;
+}
+img.FotoHome1, img.FotosZomerseActiviteiten, img.LaatsteFotoSportieveActiviteiten, img.LaatsteFotoActiviteitenVoorKleuters
+{
+    max-height:250px;
+}
+img.FotoHome2, img.FotosWinterseActiviteiten, img.FotosSportieveActiviteiten, img.FotosActiviteitenVoorKleuters
+{
+    max-height:200px;
+}
+section
+{
+    max-width:600px;
+}
+aside
+{
+    position:absolute;
+    right:350px;
+    top:700px;
+    max-width:400px;
+}
+body
+{
+    margin: 0 150px;
+    background: #EAE7DC;
+}
+
+/* Gives the page a border to the left and right */
+body::before, body::after 
+{
+    content: "";
+    width: 145px;
+    height: 100%;
+    background-color: #F5E6CC; 
+    position: fixed;
+    top: 0;
+}
+body::before
+{
+    left:0;
+}
+body::after
+{
+    right:0;
+}
+
+footer
+{
+    height:100px;
+    background-color:#D8C3A5;
+    font-size:20px;
+    text-align: left;
+    line-height: 100px;
+    padding:10px;
+    word-spacing:5px;
+}
+p
+{
+    text-indent:1px;
+    font-size:20px;
+}
+h1
+{
+    font-size:30px;
+    line-height:0.5;
+}
+h2
+{
+    font-size:25px;
+    line-height:0;
+}
+section.CookiesMessage
+{
+    z-index:9999;
+    text-align:center;
+    background-color:#333;
+    color:#fff;
+    padding:10px;
+    position:absolute;
+    top:150px;
+    left:500px;
+}
+.ContactButton
+{
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #D8C3A5;
+    border:none;
+    letter-spacing:2px;
+}
+.ContactButton:active
+{
+    background-color: #9D8D7F;
+}
+.NavLinks a:hover, .PaginaLinks:hover
+{
+    background-color: #B3A79C;
+}
+.PaginaLinks:visited
+{
+    color:#9D8D7F;
+}
+.FotosHorizontaalList
+{
+    display:flex;
+    list-style:none;
+    padding:0;
+}
+.FotosHorizontaalList li {
+    margin-right: 10px; 
+}
+.EersteFotoWinterseActiviteiten
+{
+    max-height:300px;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) 
+{
+
+}
+
+@media only screen and (min-width: 769px) 
+{
+
+}

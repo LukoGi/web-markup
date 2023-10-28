@@ -2,10 +2,96 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta name = "viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="activiteiten, ijmuiden" />
+        <meta name="author" content="Luko Pecotic" />
+
         <title>Contact</title>
+
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="css/contactstyle.css"
+        />
     </head>
+
     <body>
-        Contact page
+        <header>
+            <img src="img/Ijmuiden Activiteiten Logo.png"/>
+            <nav>
+                <ul class="NavLinks">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="zomerseactiviteiten.html">Zomerse activiteiten</a></li>
+                    <li><a href="winterseactiviteiten.html">Winterse activiteiten</a></li>
+                    <li><a href="sportieveactiviteiten.html">Sportieve activiteiten</a></li>
+                    <li><a href="activiteitenvoorkleuters.html">Activiteiten voor kleuters</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Contact</h1>
+            <form
+                action="contact.php"
+                method="post"
+                >
+                <fieldset>
+                    <ul>
+                        <li class="RadioButtons">
+                            <input type="radio" name="aanhef" value="Dhr" required/>
+                            <label for="aanhef">
+                                Dhr
+                            </label>
+                        </li>
+                        <li class="RadioButtons">
+                            <input type="radio" name="aanhef" value="Mevr" required/>
+                            <label for="aanhef">
+                                Mevr *
+                            </label>
+                        </li>
+                        <li>
+                            <label for="naam">
+                                Naam : *
+                            </label>
+                            <input type="text" name="naam" required/>
+                        </li>
+                        <li>
+                            <label for="email">
+                                Email : *
+                            </label>
+                            <input type="email" name="email" required/>
+                        </li>
+                        <li>
+                            <label for="telefoonnummer">
+                                Telefoonnummer :
+                            </label>
+                            <input type="text" name="telefoonnummer"/>
+                        </li>
+                        <li>
+                            <label for="web-adres">
+                                Web-adres :
+                            </label>
+                            <input type="text" name="web-ades"/>
+                        </li>
+                        <li>
+                            <label for="bericht">
+                                Bericht : *
+                            </label>
+                            <input type="text" name="bericht" required/>
+                        </li>
+                    </ul>
+                </fieldset>
+                <input type="submit" value="Verstuur" class="SubmitButton" />
+            </form>
+
+            <label class="VerplichtLabel"><em>Verplicht invullen *</em></label>
+
+            <h2>Wij zullen nadat u een bericht verzonden heeft z.s.m contact met u opnemen.</h2>
+        </main>
+
+        <footer>
+            <em>&copy; 2023 Luko Pecotic</em>
+        </footer>
     </body>
 </html>
