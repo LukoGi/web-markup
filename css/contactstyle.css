@@ -212,7 +212,7 @@ fieldset
     /* Modify submitbutton to have proper size on phone screen */
     .SubmitButton
     {
-        width:200px;
+        padding:10px 20px;
     }
 }
 
