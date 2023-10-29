@@ -202,7 +202,7 @@ section.CookiesMessage
     .HamburgerMenu
     {
         position:absolute;
-        width:300px;
+        width:100px;
         height:100%;
         background-color:#F0F;
         color:#FFF;
@@ -226,8 +226,8 @@ section.CookiesMessage
     #menu-toggle:checked ~ .HamburgerMenu
     {
         display:block;
-        top:0;
-        right:-300px;
+        top:20vh;
+        left:0;
     }
 
     /* Dont show the regular nav on the phone screen */
