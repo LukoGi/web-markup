@@ -160,5 +160,6 @@ section.CookiesMessage
     header
     {
         width:100%;
+        padding:0;
     }
 }
