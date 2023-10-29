@@ -157,4 +157,8 @@ section.CookiesMessage
     {
         display:none;
     }
+    header
+    {
+        width:100%;
+    }
 }
