@@ -245,7 +245,13 @@ section.CookiesMessage
     section.CookiesMessage
     {
     top:100px;
-    left:110px;
+    left:100px;
+    }
+
+    /* Resize images in horizontal row to fit the screen*/
+    .FotosHorizontaalList
+    {
+        max-width:300px;
     }
 }
 
