@@ -120,17 +120,104 @@ fieldset
     border-style:solid;
 }
 
-/* Media queries */
-@media only screen and (max-width: 768px) 
+/* Media querie for phone */
+@media screen and (max-width: 768px) 
 {
+    body::before
+    {
+        display:none;
+    }
+    body::after
+    {
+        display:none;
+    }
+    body
+    {
+        margin:0;
+    }
+    header
+    {
+        width:100%;
+    }
 
+    /* Hamburger */
+    #menu-toggle
+    {
+        display:none;
+    }
+    .hamburger
+    {
+        position:relative;
+        display:inline-block;
+        width:30px;
+        height:20px;
+        cursor:pointer;
+        margin-right:20px;
+    }
+    .hamburger span
+    {
+        position:absolute;
+        left:0;
+        right:0;
+        height:3px;
+        background-color:black;
+    }
+    .hamburger span:nth-child(1)
+    {
+        top:0;
+    }
+    .hamburger span:nth-child(2)
+    {
+        top:9px;
+    }
+    .hamburger span:nth-child(3)
+    {
+        bottom:0;
+    }
+    .HamburgerMenu
+    {
+        position:absolute;
+        width:150px;
+        height:40%;
+        background-color:#D9B08C;
+        color:black;
+        display:none;
+    }
+    .HamburgerMenu ul
+    {
+        list-style-type:none;
+        padding:20px;
+        margin:0;
+    }
+    .HamburgerMenu ul li a
+    {
+        Color:black;
+        text-decoration:none;
+        font-weight:bold;
+        font-size:20px;
+    }
+    #menu-toggle:checked ~ .HamburgerMenu
+    {
+        display:block;
+        top:20vh;
+        right:0;
+    }
+
+    /* Dont show the regular nav on the phone screen */
+    .NavLinks 
+    {
+    display: none;
+    }
 }
 
-@media only screen and (min-width: 769px) 
+/* Media querie for pc */
+@media screen and (min-width: 769px) 
 {
-
+    /* Dont show hamburger */
+    #menu-toggle, .hamburger, .HamburgerMenu 
+    {
+    display: none;
+    }
 }
-
-
 
 
