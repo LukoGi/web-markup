@@ -226,6 +226,8 @@ section.CookiesMessage
     #menu-toggle:checked ~ .HamburgerMenu
     {
         display:block;
+        top:0;
+        right:-300px;
     }
 
     /* Dont show the regular nav on the phone screen */
