@@ -178,7 +178,6 @@ section.CookiesMessage
         width:30px;
         height:20px;
         cursor:pointer;
-        padding-right:30px;
     }
     .hamburger span
     {
@@ -187,6 +186,7 @@ section.CookiesMessage
         right:0;
         height:3px;
         background-color:#F0F;
+        padding-right:30px;
     }
     .hamburger span:nth-child(1)
     {
@@ -217,7 +217,7 @@ section.CookiesMessage
     }
     .HamburgerMenu ul li
     {
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
     .HamburgerMenu ul li a
     {
