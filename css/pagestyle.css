@@ -251,7 +251,7 @@ section.CookiesMessage
     /* Resize images in horizontal row to fit the screen*/
     .FotosHorizontaalList li img
     {
-        max-width:300px;
+        max-width:175px;
     }
 }
 
