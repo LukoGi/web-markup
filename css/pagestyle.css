@@ -202,10 +202,10 @@ section.CookiesMessage
     .HamburgerMenu
     {
         position:absolute;
-        width:100px;
-        height:100%;
-        background-color:#F0F;
-        color:#FFF;
+        width:150px;
+        height:20%;
+        background-color:#D9B08C;
+        color:black;
         display:none;
     }
     .HamburgerMenu ul
@@ -220,14 +220,16 @@ section.CookiesMessage
     }
     .HamburgerMenu ul li a
     {
-        Color:#FFF;
+        Color:black;
         text-decoration:none;
+        font-weight:bold;
+        font-size:20px;
     }
     #menu-toggle:checked ~ .HamburgerMenu
     {
         display:block;
         top:20vh;
-        left:0;
+        right:0;
     }
 
     /* Dont show the regular nav on the phone screen */
