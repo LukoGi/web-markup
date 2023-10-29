@@ -214,6 +214,12 @@ fieldset
     {
         min-width: 150px;
     }
+
+    /* Modify text fields to have proper size on phone screen */
+    input:not([type="radio"]) 
+    {
+    width:50%;
+    }
 }
 
 /* Media querie for pc */
