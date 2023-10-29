@@ -168,10 +168,6 @@ section.CookiesMessage
         max-width: 90%;
         margin: 0 auto;
     }
-    body
-    {
-        background-color: black;
-    }
     body::before, body::after 
     {
         display: none;
@@ -189,9 +185,4 @@ section.CookiesMessage
         top: 50px;
         left: 10px;
     }
-}
-
-@media only screen and (min-width: 769px) 
-{
-
 }
