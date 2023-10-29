@@ -213,12 +213,8 @@ section.CookiesMessage
     {
         list-style-type:none;
         padding:20px;
+        padding-bottom:40px;
         margin:0;
-    }
-    .HamburgerMenu ul li
-    {
-        padding-bottom:10px;
-        padding-top:10px;
     }
     .HamburgerMenu ul li a
     {
