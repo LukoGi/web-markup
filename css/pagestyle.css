@@ -149,38 +149,43 @@ section.CookiesMessage
 /* Media queries */
 @media only screen and (max-width: 768px) 
 {
-    header {
+    header 
+    {
         height: 10vh;
         padding: 5px;
     }
-    
-    header img {
+    header img 
+    {
         max-width: 50%;
     }
-
-    section {
+    section 
+    {
         max-width: 90%;
     }
-
-    aside {
+    aside 
+    {
         position: static; 
         max-width: 90%;
         margin: 0 auto;
     }
-
-    body::before, body::after {
+    body
+    {
+        background-color: black;
+    }
+    body::before, body::after 
+    {
         display: none;
     }
-
-    footer {
+    footer 
+    {
         text-align: center;
     }
-
-    p, h1, h2 {
+    p, h1, h2 
+    {
         font-size: 16px;
     }
-    
-    section.CookiesMessage {
+    section.CookiesMessage 
+    {
         top: 50px;
         left: 10px;
     }
