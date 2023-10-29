@@ -172,6 +172,10 @@ section.CookiesMessage
     {
         display: none;
     }
+    body
+    {
+        background:#EAE7DC;
+    }
     footer 
     {
         text-align: center;
