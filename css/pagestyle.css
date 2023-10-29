@@ -215,10 +215,6 @@ section.CookiesMessage
         padding:20px;
         margin:0;
     }
-    .HamburgerMenu ul li 
-    {
-        padding:10px 0;
-    }
     .HamburgerMenu ul li a
     {
         Color:black;
@@ -237,6 +233,19 @@ section.CookiesMessage
     .NavLinks 
     {
     display: none;
+    }
+
+    /* Dont show feedback part (Takes too much space on small screen) */
+    aside 
+    {
+        display:none;
+    }
+
+    /* Center cookies message on phone screen */
+    section.CookiesMessage
+    {
+    top:75px;
+    left:200px;
     }
 }
 
