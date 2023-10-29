@@ -165,4 +165,83 @@ section.CookiesMessage
     {
         width:100%;
     }
+
+    /* Hamburger */
+    #menu-toggle
+    {
+        display:none;
+    }
+    .hamburger
+    {
+        position:relative;
+        display:inline-block;
+        width:30px;
+        height:20px;
+        cursor:pointer;
+    }
+    .hamburger span
+    {
+        position:absolute;
+        left:0;
+        right:0;
+        height:3px;
+        background-color:#F0F;
+    }
+    .hamburger span:nth-child(1)
+    {
+        top:0;
+    }
+    .hamburger span:nth-child(2)
+    {
+        top:9px;
+    }
+    .hamburger span:nth-child(3)
+    {
+        bottom:0;
+    }
+    .HamburgerMenu
+    {
+        position:absolute;
+        top:0;
+        right:-300px;
+        width:300px;
+        height:100%;
+        background-color:#F0F;
+        color:#FFF;
+    }
+    .HamburgerMenu ul
+    {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+    }
+    .HamburgerMenu ul li
+    {
+        padding:10px;
+    }
+    .HamburgerMenu ul li a
+    {
+        Color:#FFF;
+        text-decoration:none;
+    }
+    #menu-toggle:checked ~ .HamburgerMenu
+    {
+        left:0;
+    }
+
+    /* Dont show the regular nav on the phone screen */
+    .NavLinks 
+    {
+    display: none;
+    }
+}
+
+/* Media querie for pc */
+@media screen and (min-width: 769px) 
+{
+    /* Dont show hamburger */
+    #menu-toggle, .hamburger, .HamburgerMenu 
+    {
+    display: none;
+    }
 }
