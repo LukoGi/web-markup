@@ -146,47 +146,8 @@ section.CookiesMessage
     max-height:300px;
 }
 
-/* Media queries */
+/* Media querie for phone */
 @media screen and (max-width: 768px) 
 {
-    header 
-    {
-        height: 10vh;
-        padding: 5px;
-    }
-    header img 
-    {
-        max-width: 50%;
-    }
-    section 
-    {
-        max-width: 90%;
-    }
-    aside 
-    {
-        position: static; 
-        max-width: 90%;
-        margin: 0 auto;
-    }
-    body::before, body::after 
-    {
-        display: none;
-    }
-    body
-    {
-        background:#EAE7DC;
-    }
-    footer 
-    {
-        text-align: center;
-    }
-    p, h1, h2 
-    {
-        font-size: 16px;
-    }
-    section.CookiesMessage 
-    {
-        top: 50px;
-        left: 10px;
-    }
+    
 }
