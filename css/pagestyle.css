@@ -244,7 +244,7 @@ section.CookiesMessage
     /* Center cookies message on phone screen */
     section.CookiesMessage
     {
-    top:75px;
+    top:100px;
     left:150px;
     }
 }
