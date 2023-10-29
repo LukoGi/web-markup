@@ -1,0 +1,5 @@
+Student name: Luko Pecotic
+Student number: 706685
+Student class: INFVT2b
+GitHub Repository: https://github.com/LukoGi/web-markup
+GitHub Pages URL: https://lukogi.github.io/web-markup/home.html
