@@ -186,7 +186,7 @@ section.CookiesMessage
         left:0;
         right:0;
         height:3px;
-        background-color:#F0F;
+        background-color:black;
     }
     .hamburger span:nth-child(1)
     {
@@ -212,12 +212,12 @@ section.CookiesMessage
     .HamburgerMenu ul
     {
         list-style-type:none;
-        padding:0;
+        padding:20px;
         margin:0;
     }
     .HamburgerMenu ul li
     {
-        padding: 20px;
+        padding: 0;
     }
     .HamburgerMenu ul li a
     {
